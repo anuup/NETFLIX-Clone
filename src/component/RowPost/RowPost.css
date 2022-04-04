@@ -1,0 +1,30 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.row h2{
+    text-align: center;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+
+.poster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.small-posters{
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.poster:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
